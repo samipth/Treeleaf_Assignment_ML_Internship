@@ -1,0 +1,41 @@
+Instructions:
+
+1. Initially, all the necessary libraries were imported as per need.
+
+2. Data is loaded into a pandas dataframe.
+
+3. As the ID column was unique for every data, it is dropped at the beginning.
+
+4. The type of every columns was observed.
+
+5. Then, all the features (categorical, ordinal and numeric) were visualized.
+
+6. We can observe the unnecessary data, null values in the categorical and ordinal features.
+
+7. Numeric columns are visualized to know if they are normal.
+
+8. For null values in categorical and ordinal features, mode is used.
+
+9. For odd characters in the dataset(Example: '#', '-' in Gender column) replacing it with mode.
+
+7. For null values in numeric features, median is used.
+
+8. For normalization of numeric columns methods like log transformation and min - max scaling is used.
+
+9. For correlation analysis, heatmap is visualized.
+
+10. All the object datatype are converted to integer datatype.
+
+11. The non - normalized columns were dropped from the dataset.
+
+12. Now the dataset was divided into train and test dataset in the ratio 7:3 respectively.
+
+13. Machine Learning models like KNN, Random Forest, SVC, Logistic Regression were imported.
+
+14. The train was fit to the data, and training accuracy was obtained for each model.
+
+15. Testing accuracy was calculated using the testing data.
+
+16. Model with highest accuracy was used.(Also, we can observe metrics like precision, recall , F1-Score)
+
+17. Lastly the model is saved for further use.
