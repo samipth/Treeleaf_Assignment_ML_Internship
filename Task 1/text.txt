@@ -36,6 +36,8 @@ Instructions:
 
 15. Testing accuracy was calculated using the testing data.
 
-16. Model with highest accuracy was used.(Also, we can observe metrics like precision, recall , F1-Score)
+16. Models' accuracy, F1-score and recall were compared.
 
-17. Lastly the model is saved for further use.
+17. Best performing model is selected.
+
+18. Lastly the model is saved for further use.
